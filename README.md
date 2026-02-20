@@ -15,7 +15,7 @@ This helped me understand:
 - Filtering nested fields
 - Simple data analysis queries
 
-## 🛠 Technologies Used
+## Technologies Used
 - MongoDB
 - MongoDB Compass / mongosh
 - JSON Document Structure
