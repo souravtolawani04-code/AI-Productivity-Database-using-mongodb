@@ -1,0 +1,10 @@
+1.This query displays all documents inside the students collection :
+db.students.find()
+
+2. If you want Student who has focus_ratings more than 7: 
+db.students.find({
+  "study_sessions.focus_rating": { $gt: 7 }
+})
+
+3. show only name field :
+db.students.find({}, { name: 1, _id: 0 })
